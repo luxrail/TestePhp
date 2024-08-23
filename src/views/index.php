@@ -8,12 +8,13 @@ $categories = new Categories();
 
 $list_categories = $categories->listAllCategories();
 
-$message = '';
+$message = isset($_SESSION['message']) ? $_SESSION['message'] : '';
+unset($_SESSION['message']);
 
 if (isset($_GET["idcategory"])) {
     $message = $categories->deleteCategory($_GET["idcategory"]);
     $_SESSION['message'] = $message;
-    header('Location: index-products.php');
+    header('Location: index.php');
     exit;
 }
 ?>
