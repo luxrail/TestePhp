@@ -11,7 +11,7 @@ unset($_SESSION['message']);
 if (isset($_GET["idproduct"])) {
     $message = $products->deleteProduct($_GET['idproduct']);
     $_SESSION['message'] = $message;
-    header('Location: index-products.php');
+    header('Location: index.php');
     exit;
 }
 ?>

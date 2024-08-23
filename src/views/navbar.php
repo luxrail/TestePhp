@@ -7,10 +7,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="http://localhost/sodretest/index.php">Categorias</a>
+                        <a class="nav-link" href="http://localhost/sodretest/src/views/categories/index.php">Categorias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/sodretest/src/views/products/index-products.php">Produtos</a>
+                        <a class="nav-link" href="http://localhost/sodretest/src/views/products/index.php">Produtos</a>
                     </li>
                 </ul>
             </div>

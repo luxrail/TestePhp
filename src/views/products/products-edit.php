@@ -19,7 +19,7 @@ $message = '';
 if (isset($_POST['save'])) {
     $message = $products->editProduct();
     $_SESSION['message'] = $message; // Armazena a mensagem na sessão
-    header('Location: index-products.php');
+    header('Location: index.php');
     exit;
 }
 ?>

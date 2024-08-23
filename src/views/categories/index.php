@@ -2,7 +2,7 @@
 session_start();
 header("Content-type:text/html; charset=utf8");
 
-require_once "src/Models/categories.php";
+require_once "../../models/categories.php";
 
 $categories = new Categories();
 
@@ -13,7 +13,7 @@ $message = '';
 if (isset($_GET["idcategory"])) {
     $message = $categories->deleteCategory($_GET["idcategory"]);
     $_SESSION['message'] = $message;
-    header('Location: index-products.php');
+    header('Location: index.php');
     exit;
 }
 ?>
@@ -43,7 +43,7 @@ if (isset($_GET["idcategory"])) {
                 <div class="card">
                     <div class="card-header">
                         <h4>Lista de Categorias
-                            <a href="src/views/categories-create.php" class="btn btn-primary float-end">Nova
+                            <a href="categories-create.php" class="btn btn-primary float-end">Nova
                                 Categoria</a>
                         </h4>
                     </div>
@@ -67,7 +67,7 @@ if (isset($_GET["idcategory"])) {
                                     <td><?php echo $categories->created; ?></td>
                                     <td><?php echo $categories->updated; ?></td>
                                     <td>
-                                        <a href="src/views/categories-edit.php?id=<?php echo $categories->id; ?>"
+                                        <a href="categories-edit.php?id=<?php echo $categories->id; ?>"
                                             class="btn btn-success">Alterar</a>
                                         <a href="index.php?idcategory=<?php echo $categories->id; ?>"
                                             class="btn btn-danger">Excluir</a>

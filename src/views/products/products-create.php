@@ -14,7 +14,7 @@ $message = '';
 if (isset($_POST['save'])) {
   $message = $products->insertProduct();
   $_SESSION['message'] = $message; 
-  header('Location: index-products.php');
+  header('Location: index.php');
   exit;
 }
 ?>
