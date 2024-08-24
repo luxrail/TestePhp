@@ -101,7 +101,7 @@ if (isset($_GET["idproduct"])) {
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <form method="GET" action="index-products.php">
+                    <form method="GET" action="index.php">
                         <input type="hidden" name="idproduct" id="deleteProductId">
                         <button type="submit" class="btn btn-danger">Excluir</button>
                     </form>
