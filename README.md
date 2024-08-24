@@ -38,9 +38,7 @@ ja esta definido como esta rodando para executar no banco
 ### 2. Execução
 Coloque o projeto na pasta raiz do servidor Apache (por exemplo, htdocs no XAMPP).</br>
 Acesse a aplicação no navegador:</br>
-url</br>
-Copiar código</br>
-http://localhost/</br>
+url http://localhost/</br>
 ### 3. Estrutura do Projeto</br>
 Explique como os arquivos estão organizados e como cada um deles interage:</br>
 
