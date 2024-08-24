@@ -1,7 +1,7 @@
 Projeto de CRUD de Categorias e Produtos
 Este projeto é uma aplicação em PHP puro que permite a criação, leitura, atualização e exclusão (CRUD) de categorias e produtos. Cada produto é vinculado a uma categoria específica. A aplicação utiliza MySQL como banco de dados.
 
-##Funcionalidades
+## Funcionalidades
 CRUD de Categorias:
 
 Criar uma nova categoria.
