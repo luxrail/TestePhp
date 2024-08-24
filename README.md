@@ -40,7 +40,7 @@ Coloque o projeto na pasta raiz do servidor Apache (por exemplo, htdocs no XAMPP
 Acesse a aplicação no navegador:</br>
 url</br>
 Copiar código</br>
-http://localhost/seu-projeto/</br>
+http://localhost/</br>
 ### 3. Estrutura do Projeto</br>
 Explique como os arquivos estão organizados e como cada um deles interage:</br>
 
