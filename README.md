@@ -17,28 +17,25 @@ CRUD de Produtos:
 + Excluir um produto.
 + O projeto está organizado da seguinte forma:
 
-Requisitos para testar
+## Requisitos para testar
 
-1. Instalação e Configuração
-1.1. Pré-requisitos
-PHP Utilizado 8.3.1
-MySQL Utilizado 5.7.24 
-Servidor Apache (XAMPP, WAMP, MAMP, etc.)
-1.2. Clonar o Repositório
+# 1. Instalação e Configuração
++ 1.1. Pré-requisitos
++ PHP Utilizado 8.3.1
++ MySQL Utilizado 5.7.24 
++ Servidor Apache (XAMPP, WAMP, MAMP, etc.)
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
 
-1.3. Configuração do Banco de Dados
+# 1.2. Configuração do Banco de Dados
 Certifique-se de que o MySQL esteja rodando na porta 3606.
 Execute o arquivo .sql dentro da pasta mysql ele ja possui todas as tabelas e tambem o create database
 
 
-1.4. Configuração do Projeto
+# 1.3. Configuração do Projeto
 No arquivo config.php (ou no próprio Categories.php e Products.php), ajuste as credenciais do banco de dados conforme necessário:
 ja esta definido como esta rodando para executar no banco
 
-2. Execução
+# 2. Execução
 Coloque o projeto na pasta raiz do servidor Apache (por exemplo, htdocs no XAMPP).
 Acesse a aplicação no navegador:
 url
