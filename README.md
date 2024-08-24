@@ -4,18 +4,18 @@ Este projeto é uma aplicação em PHP puro que permite a criação, leitura, at
 ## Funcionalidades
 CRUD de Categorias:
 
-Criar uma nova categoria.
-Visualizar uma lista de categorias.
-Editar uma categoria existente.
-Excluir uma categoria.
++Criar uma nova categoria.
++Visualizar uma lista de categorias.
++Editar uma categoria existente.
++Excluir uma categoria.
 
 CRUD de Produtos:
 
-Criar um novo produto vinculado a uma categoria.
-Visualizar uma lista de produtos.
-Editar um produto existente.
-Excluir um produto.
-O projeto está organizado da seguinte forma:
++Criar um novo produto vinculado a uma categoria.
++Visualizar uma lista de produtos.
++Editar um produto existente.
++Excluir um produto.
++O projeto está organizado da seguinte forma:
 
 Requisitos para testar
 
